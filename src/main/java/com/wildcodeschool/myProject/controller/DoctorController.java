@@ -20,13 +20,13 @@ import org.springframework.web.bind.annotation.ResponseBody;
         @GetMapping("/doctor/10")
         @ResponseBody
         public String doctor10() {
-            return "William Hartnell";
+            return "David Tennant";
         }
 
         @GetMapping("/doctor/13")
         @ResponseBody
         public String doctor13() {
-            return "William Hartnell";
+            return "Jodie Whittaker";
         }
 }
 
